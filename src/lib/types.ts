@@ -30,3 +30,9 @@ export interface CableRoute {
   cableId: string;
   segments: CableSegment[];
 }
+
+export interface RouteStep {
+  cableId: string;
+  segment: CableSegment;
+  coords: [number, number][];
+}
